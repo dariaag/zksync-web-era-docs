@@ -27,6 +27,10 @@ Welcome to the Analytics page, a comprehensive hub dedicated to interacting with
 
 [Flair](https://docs.flair.dev/) offers reusable **indexing primitives** (such as fault-tolerant RPC ingestors, custom processors, re-org aware database integrations) to make it easy to receive, transform, store and access your on-chain data.
 
+### Subsquid
+
+[Subsquid](https://subsquid.io/) is a decentralized indexing toolkit optimized for batch extraction of large volumes of data. It currently serves historical on-chain data including event logs, transaction receipts, traces and per-transaction state diffs. Subsquid offers a powerful toolkit for creating custom data extraction and  processing pipelines, achieving indexing speeds of up to 150k blocks per second.
+
 ### DipDup
 
 [DipDup](https://dipdup.io/) is a Python framework for building smart contract indexers. It helps developers focus on business logic instead of writing a boilerplate to store and serve data. DipDup-based indexers are selective, which means only required data is requested. This approach allows to achieve faster indexing times and decreased load on underlying APIs.
